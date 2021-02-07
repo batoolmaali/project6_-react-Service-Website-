@@ -1,0 +1,38 @@
+#videoBG {
+   width: 100%;
+   z-index: -1;
+ 
+
+}
+.header-container{
+  /* height: 100vh;  */
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+@media screen and (max-width: 900px){
+    #videoBG {
+        width:50%;
+        height: auto;
+    }
+    /* .header-container{
+        height: 50vh; 
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+      } */
+}
+
+
+@media screen and (max-width: 600px) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+    /* .header-container{
+        height: 35vh; 
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+      } */
+}
